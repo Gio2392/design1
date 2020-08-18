@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a1860f9f2e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Lombok | Gio</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra">
+                <h1 class="logo wo-mg"><a href="#">LO</a></h1>
+                <div class="toggle" onclick="toggle()"><i class="fas fa-bars"></i></div>
+                <nav class="navegacion">
+                    <a href="#">About</a>
+                    <a href="#">Articles</a>
+                    <a href="#" class="active">Subscribe</a>    
+                </nav>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <h1 class="wo-mg">Lombok</h1>
+            <h2>Holistic Health</h2>
+            <span class="divisor"></span>
+        </div>
+    </header>
+    <section class="section-cards">
+        <div class="contenedor cont-card">
+            <div class="titulo-cards">
+                <h2>latest articles</h2>
+                <span class="divisor"></span>
+            </div>
+            <div class="contenedor-cards">
+                <div class="card">
+                    <img src="img/1.jpg" alt="">
+                    <div class="text-card">
+                        <span class="divisor-s"></span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div><!-- card -->
+                <div class="card">
+                    <img src="img/2.jpg" alt="">
+                    <div class="text-card">
+                        <span class="divisor-s"></span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div><!-- card -->
+                <div class="card">
+                    <img src="img/3.jpg" alt="">
+                    <div class="text-card">
+                        <span class="divisor-s"></span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div><!-- card -->
+            </div><!-- contenedor-cards -->
+        </div>
+    </section><!-- cards -->
+    <section class="about">
+        <div class="img-about">
+            <img src="img/about.jpg" alt="">
+        </div>
+        <div class="texto-about">
+            <h2>About</h2>
+            <span class="divisor"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laborum odio impedit saepe. Incidunt enim itaque maiores inventore totam magni at alias ad in nulla explicabo fugit earum, nostrum voluptatum odio illo adipisci voluptas aspernatur error optio laboriosam eius modi autem. Distinctio illo omnis </p>
+        </div>
+    </section><!-- about -->
+    <section class="contenedor-sub">
+            <h2>Subscribe</h2>
+            <p>Sign up to our newsletter</p>
+            <input type="email" placeholder="Your email">
+            <input type="submit" value="submit">
+    </section>
+<footer>
+    <div class="contenedor footer">
+        <div class="redes-sociales">
+            <a class="social" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="social" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="social" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="social" href="#"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+        <nav class="redes">
+             <a href="#">About</a>
+             <a href="#">Articles</a>
+             <a href="#">Subscribe</a>    
+         </nav>
+    </div>
+</footer>
+<script type="text/javascript">
+    function toggle(){
+        let menu = document.querySelector('.navegacion')
+        menu.classList.toggle('nav-toggle')
+    }
+</script>
+</body>
+</html>
